@@ -3,7 +3,7 @@ from linebot import LineBotApi
 from linebot.models import TextSendMessage
 from linebot.exceptions import LineBotApiError
 
-access_token = 'etJSTvIt42LjigQK8lId5BgU7+oQP4QLLBOhqtZURXBftblC4dLHqDFvfFspONIz03MnaZdu/r+tjSyleo7ZBgMSPM1/7SkxWGzONTJegZMjpS9OxPPCa52L1hZm/6iNNyV/Rlj2O5Q9s02RO1yeuwdB04t89/1O/w1cDnyilFU='
+access_token = ''
 
 def line_send(user_id, msg):
     try:
